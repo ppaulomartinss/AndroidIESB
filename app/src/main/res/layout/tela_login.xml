@@ -49,8 +49,8 @@
             android:text="LOGIN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button2"
+            android:id="@+id/btnLogin"
             android:layout_weight="1"
-            android:onClick="efetuarLogin" />
+            android:onClick="mostrarTelaLogin" />
     </LinearLayout>
 </LinearLayout>
