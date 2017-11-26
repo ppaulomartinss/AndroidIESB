@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
     android:orientation="vertical"
-    tools:context="br.iesb.androidiesb.MainActivity">
-
+    tools:context="br.iesb.androidiesb.controller.MainActivity">
 
     <Button
-        android:onClick="logoutFacebook"
-        android:id="@+id/button2"
+        android:id="@+id/btnEscolas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="Encerrar Sessão" />
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Escolas" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Mapa" />
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Visualizar Perfil" />
+
+    <Button
+        android:id="@+id/btnEncerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encerrar Sessão"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
