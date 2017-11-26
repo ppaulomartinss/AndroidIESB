@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="Email"
+        android:hint="Email (teste@firebase.com)"
         android:inputType="textEmailAddress"
         android:id="@+id/loginEmail" />
 
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="Senha"
+        android:hint="Senha (123456)"
         android:inputType="textPassword"
         android:id="@+id/loginSenha" />
 
