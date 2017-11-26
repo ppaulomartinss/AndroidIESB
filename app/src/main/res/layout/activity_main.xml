@@ -16,22 +16,6 @@
         android:text="Escolas" />
 
     <Button
-        android:id="@+id/btnMapa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center_horizontal"
-        android:text="Mapa" />
-
-    <Button
-        android:id="@+id/btnPerfil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center_horizontal"
-        android:text="Visualizar Perfil" />
-
-    <Button
         android:id="@+id/btnEncerrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
