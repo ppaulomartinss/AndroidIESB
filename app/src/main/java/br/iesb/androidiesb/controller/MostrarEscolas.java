@@ -1,11 +1,15 @@
 package br.iesb.androidiesb.controller;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +18,8 @@ import br.iesb.androidiesb.R;
 import br.iesb.androidiesb.adapter.EscolaAdapter;
 import br.iesb.androidiesb.api.RetrofitEscola;
 import br.iesb.androidiesb.api.TCUEscolas;
+import br.iesb.androidiesb.atividades.LoginActivity;
+import br.iesb.androidiesb.atividades.MapsActivity;
 import br.iesb.androidiesb.model.Escola;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -49,7 +55,7 @@ public class MostrarEscolas extends AppCompatActivity {
         Call<List<Escola>> escolas = service.getUserData();
 
         final ProgressDialog progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Carregando");
+        progressDialog.setMessage("Carregando...");
         progressDialog.show();
 
         escolas.enqueue(new Callback<List<Escola>>() {
@@ -70,8 +76,7 @@ public class MostrarEscolas extends AppCompatActivity {
                 Log.d("MostrarEscolas", t.toString());
             }
         });
+
     }
-
-
 
 }

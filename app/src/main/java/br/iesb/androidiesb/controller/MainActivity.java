@@ -6,12 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import br.iesb.androidiesb.LoginActivity;
-import br.iesb.androidiesb.Main2Activity;
+import com.google.firebase.auth.FirebaseAuth;
+
+import br.iesb.androidiesb.atividades.LoginActivity;
 import br.iesb.androidiesb.R;
 
 public class MainActivity extends AppCompatActivity {
 
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //BOTÃO MAPA
-        Button btnMapa = (Button) findViewById(R.id.btnMapa);
+        /*Button btnMapa = (Button) findViewById(R.id.btnMapa);
         btnMapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
@@ -53,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
                 it.putExtra ("longitude", 45.67676);
                 startActivity(it);
             }
-        });
+        });*/
+
     }
 
 }

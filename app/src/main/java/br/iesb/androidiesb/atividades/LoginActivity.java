@@ -1,4 +1,4 @@
-package br.iesb.androidiesb;
+package br.iesb.androidiesb.atividades;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -16,6 +16,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import br.iesb.androidiesb.R;
 import br.iesb.androidiesb.controller.MainActivity;
 
 

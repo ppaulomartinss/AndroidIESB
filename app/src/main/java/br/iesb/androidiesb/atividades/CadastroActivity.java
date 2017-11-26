@@ -1,4 +1,4 @@
-package br.iesb.androidiesb;
+package br.iesb.androidiesb.atividades;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import br.iesb.androidiesb.R;
 
 public class CadastroActivity extends AppCompatActivity {
 
